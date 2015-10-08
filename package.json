@@ -1,0 +1,24 @@
+{
+  "name": "ghost-azure-store",
+  "version": "1.0.0",
+  "description": "Azure blob storage integration for Ghost",
+  "main": "index.js",
+  "keywords": [
+    "azure", "blobstorage", "ghost", "blog", "image", "storage", "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helloitsdan/ghost-azure-store"
+  },
+  "bugs": {
+    "url": "https://github.com/helloitsdan/ghost-azure-store/issues"
+  },
+  "homepage": "https://github.com/helloitsdan/ghost-azure-store",
+  "author": "dani quinn sexton <hello@imakenicethin.gs> (http://imakenicethin.gs)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "azure-storage": "^0.6.0",
+    "sanitize-filename": "^1.4.4"
+  }
+}
