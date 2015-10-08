@@ -1,10 +1,6 @@
-var util        = require("util"),
-    Promise     = require('bluebird'),
-    baseStore   = require('../../core/server/storage/base'),
-    azure       = require("azure-storage"),
-    sanitize    = require("sanitize-filename");
-
-var options;
+var Promise  = require('bluebird'),
+    azure    = require("azure-storage"),
+    sanitize = require("sanitize-filename");
 
 function AzureStore(config) {
   options = config || {};
@@ -29,8 +25,6 @@ function AzureStore(config) {
     }
   );
 }
-
-util.inherits(AzureStore, baseStore);
 
 AzureStore.prototype.save = function(image) {
   var targetDir = this.getTargetDir() + "/";
