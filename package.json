@@ -1,10 +1,16 @@
 {
   "name": "ghost-azure-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Azure blob storage integration for Ghost",
   "main": "index.js",
   "keywords": [
-    "azure", "blobstorage", "ghost", "blog", "image", "storage", "module"
+    "azure",
+    "blobstorage",
+    "ghost",
+    "blog",
+    "image",
+    "storage",
+    "module"
   ],
   "repository": {
     "type": "git",
