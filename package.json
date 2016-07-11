@@ -1,6 +1,6 @@
 {
   "name": "ghost-azure-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Azure blob storage integration for Ghost",
   "main": "index.js",
   "keywords": [
@@ -25,6 +25,7 @@
   "dependencies": {
     "bluebird": "^2.9.34",
     "azure-storage": "^0.6.0",
-    "sanitize-filename": "^1.4.4"
+    "sanitize-filename": "^1.4.4",
+    "node-uuid": "^1.4.7"
   }
 }
